@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typed.js Example</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Library.Inc</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="images.html">Images</a></li>
+                <li><a href="library1.html">Library 1</a></li>
+                <li><a href="library2.html">Library 2</a></li>
+                <li><a href="AOSLibrary.html">AOS Library</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Typed.js Example</h1>
+        <p id="typed-text"></p>
+        <h2>Using Typed.js</h2>
+        <p>Typed.js is a library that types out text in an animated way.</p>
+        <br>
+        <p>This is how to use it: </p>
+        <pre><code>
+            &lt;script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"&gt;&lt;/script&gt;
+&lt;script&gt;
+  var typed = new Typed('#typed-text', {
+    strings: ["Here you can see some typed text.", "Typed.js makes it easy to add typing animations."],
+    typeSpeed: 50
+  });
+&lt;/script&gt;
+        </code></pre>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed('#typed-text', {
+            strings: ["Here you can see some typed text.", "Typed.js makes it easy to add typing animations."],
+            typeSpeed: 50
+        });
+    </script>
+</body>
+</html>

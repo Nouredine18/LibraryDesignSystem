@@ -1,0 +1,47 @@
+.container {
+    max-width: 800px; /* Bredeer van de container */
+    margin: 40px auto; /* Afstand van de randen en het middelpunt */
+    padding: 20px; /* Afstand tussen de inhoud en de randen */
+    background-color: #f9f9f9; /* Achtergrondkleur */
+    border: 1px solid #ddd; /* Randkleur */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Schaduw */
+  }
+  
+  h2 {
+    font-size: 24px; /* Lettergrootte van de titels */
+    margin-bottom: 10px; /* Afstand tussen de titels en de tekst */
+  }
+  
+  h6 {
+    font-size: 18px; /* Lettergrootte van de subtitels */
+    margin-bottom: 10px; /* Afstand tussen de subtitels en de tekst */
+  }
+  
+  p {
+    font-size: 16px; /* Lettergrootte van de tekst */
+    margin-bottom: 20px; /* Afstand tussen de tekst en de volgende elementen */
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  ul li:last-child {
+    border-bottom: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #337ab7; /* Kleur van de links */
+  }
+  
+  a:hover {
+    color: #23527c; /* Kleur van de links bij hover */
+  }

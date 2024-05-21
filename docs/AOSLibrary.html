@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="libraries/hover.css">
+<link rel="stylesheet" href="libraries/hover-min.css">
+<link rel="stylesheet" href="libraries/aos.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Library.Inc</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="images.html">Images</a></li>
+                <li><a href="library1.html">Library 1</a></li>
+                <li><a href="library2.html">Library 2</a></li>
+                <li><a href="AOSLibrary.html">AOS Library</a></li>
+            </ul>
+        </div>
+    </nav>
+    <hr>
+    <div class="AOSLibraryShowCaseYes">
+        <h1>AOS-Library</h1>
+        <h6>fade-up</h6>
+        <img data-aos="fade-up" class = "top" src="images/img_nature.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+        <h6>fade-down</h6>
+        <img data-aos="fade-down" class = "top" src="images/img_mountains.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+        <h6>fade-right</h6>
+        <img data-aos="fade-right" class = "top" src="images/img_snow.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+        <h6>fade-left</h6>
+        <img data-aos="fade-left" class = "top" src="images/img_beach.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+        </div>
+    <hr>
+
+    <script src="java.js"></script>
+    <script src="libraries/aos.js"></script>
+    <script>AOS.init();</script>
+</body>
+</html>
